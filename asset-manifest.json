@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/emindcafe/static/css/main.6b28ef8e.chunk.css",
+    "main.js": "/emindcafe/static/js/main.e6289dff.chunk.js",
+    "main.js.map": "/emindcafe/static/js/main.e6289dff.chunk.js.map",
+    "runtime-main.js": "/emindcafe/static/js/runtime-main.34aa889a.js",
+    "runtime-main.js.map": "/emindcafe/static/js/runtime-main.34aa889a.js.map",
+    "static/css/2.4f8976c6.chunk.css": "/emindcafe/static/css/2.4f8976c6.chunk.css",
+    "static/js/2.af2512d2.chunk.js": "/emindcafe/static/js/2.af2512d2.chunk.js",
+    "static/js/2.af2512d2.chunk.js.map": "/emindcafe/static/js/2.af2512d2.chunk.js.map",
+    "static/js/3.1141918f.chunk.js": "/emindcafe/static/js/3.1141918f.chunk.js",
+    "static/js/3.1141918f.chunk.js.map": "/emindcafe/static/js/3.1141918f.chunk.js.map",
+    "index.html": "/emindcafe/index.html",
+    "static/css/2.4f8976c6.chunk.css.map": "/emindcafe/static/css/2.4f8976c6.chunk.css.map",
+    "static/css/main.6b28ef8e.chunk.css.map": "/emindcafe/static/css/main.6b28ef8e.chunk.css.map",
+    "static/js/2.af2512d2.chunk.js.LICENSE.txt": "/emindcafe/static/js/2.af2512d2.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/emindcafe/static/media/main_banner.e42bcd74.jpg",
+    "static/media/smile.c543afc9.jpg": "/emindcafe/static/media/smile.c543afc9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.34aa889a.js",
+    "static/css/2.4f8976c6.chunk.css",
+    "static/js/2.af2512d2.chunk.js",
+    "static/css/main.6b28ef8e.chunk.css",
+    "static/js/main.e6289dff.chunk.js"
+  ]
+}
