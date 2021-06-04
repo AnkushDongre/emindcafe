@@ -1,0 +1,9 @@
+.hero-section{
+    padding-top: 200px;
+    background-image: url('../images/banners/main_banner.jpg');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: inherit;
+}
+

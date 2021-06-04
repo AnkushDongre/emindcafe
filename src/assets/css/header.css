@@ -1,0 +1,7 @@
+#responsive-navbar-nav > div a{
+    color:red;
+}
+#responsive-navbar-nav > div a:hover{
+    color:green;
+    background-color: yellow;
+}
