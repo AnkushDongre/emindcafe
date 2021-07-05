@@ -18,10 +18,12 @@ const Footer = () => {
           <div className="col-lg-3 col-md-6 footer-contact">
             <h2>eMind Cafe</h2>
             <p>
-              Shraddha Recedency <br/>
-              Sinddhi camp, Akola<br/>
-              Maharashtra <br/><br/>
-              <strong>Phone:</strong><a className="text-light text-decoration-none" href="tel: +91-9923852939"> +91 9923852939</a><br/>
+              A/11, Shraddha Residency, <br/>
+              Bitiset Agrawal layout,<br />
+              Near Badere photo stdio,<br/>
+              P.O, Gandhi Nagar, Akola<br/>
+              Maharashtra 444001, IN<br/><br/>
+              <strong>Phone:</strong><a className="text-light text-decoration-none" href="tel: +91-9403876207"> +91 9403876207</a><br/>
               <strong>Email:</strong><a className="text-light text-decoration-none" href="mailto: example@example.com"> example@example.com</a><br/>
             </p>
           </div>

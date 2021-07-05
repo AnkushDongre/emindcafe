@@ -1,0 +1,9 @@
+Hello Mr. Akshay;
+
+You got a new appointment scheduled from {{fname}} {{lname}}:
+
+You can contact {{fname}} {{lname}} on {{contact}} or through {{email}}.
+
+The first appointment status is {{gridRadios}}.
+
+The appointment is scheduled on date: {{date}} and time: {{time}}.

@@ -1,7 +1,9 @@
 import { FaHotel, FaNotesMedical } from "react-icons/fa";
 import "../assets/css/index.css";
+import IndexTopCards from "./IndexTopCards"
+// import card1 from "../assets/images/logo/emind-cafe-logo.jpg";
 import smile from "../assets/images/index/smile.jpg";
-import card1 from "../assets/images/logo/emind-cafe-logo.jpg";
+import { Container } from "react-bootstrap";
 
 const Index = () => {
     return(
@@ -17,8 +19,14 @@ const Index = () => {
     </div>
   </div>
         </section>
-      <section className="p-4" style={{backgroundColor : "lightgrey"}}>
-        <h1 className="text-center py-3">Things you should know</h1>
+      <section className="text-center pt-5" style={{backgroundColor : "lightgrey"}}>
+
+        <IndexTopCards />
+        
+        <Container className="p-5">
+        <button type="button" className="btn btn-dark btn-outline-warning rounded-pill btn-lg px-4">More topics</button>
+        </Container>
+        {/* <h1 className="text-center py-3">Things you should know</h1>
         <div className="container">
       <div className="row row-cols-3 row-cols-lg-6 row-cols-md-3 g-2 g-lg-3">
          <div className="col">
@@ -59,7 +67,7 @@ const Index = () => {
          </div>
 
        </div>
-       </div>
+       </div> */}
       </section>
       <div className="container p-4">
       <hr className="featured-devider bg-danger p-1" />
@@ -67,20 +75,20 @@ const Index = () => {
       </div>
       <section>
         <div className="container">
-      <div className="row row-cols-2 row-cols-sm-1 row-cols-lg-2">
+      <div className="row row-cols-1 row-cols-sm-1 row-cols-lg-2">
       <div className="col">
         <img className="img-fluid" width="600" height="600" src={smile} alt="" />
       </div>
       <div className="col">
-        <h1 className="fs-1 fw-bolder" >Voluptatem dignissimos provident quasi</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
+        <h1 className="fs-1 fw-bolder" >&#x1F60A; We are waiting for a smile on your face.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae cupiditate incidunt, corporis iusto nemo tempore! Harum unde doloremque, beatae aspernatur hic saepe maiores porro magnam earum iure. Repellendus, dolorem earum?</p>
       <div className="row row-cols-2 row-cols-sm-1 row-cols-lg-2 g-2 g-lg-3">
         <div className="col">
           <FaNotesMedical fontSize={75} fill="gray" />
           <h2>Hello Ankush</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quae aliquid veniam sequi temporibus aperiam quam saepe. Provident, modi optio laboriosam ea, quis pariatur quasi quia ullam aliquam neque vel.</p>
         </div>
-        <div className="col">
+        <div className="col-sm-12">
           <FaHotel fontSize={75} fill="gray" />
           <h2>Hello Ankush</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas veritatis aliquam ex perspiciatis sint eveniet exercitationem tempora, voluptate, commodi, voluptates laboriosam. Possimus, velit! Maiores, maxime velit tempore natus ea voluptatibus.</p>
@@ -126,9 +134,9 @@ const Index = () => {
       
       </div>
       <section className="p-5">
-        <div className="container">
+        <div className="container pb-3">
       <h1 className="text-center">Services</h1>
-      <p className="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam ex eum quidem voluptatibus ipsa inventore et odio soluta.</p>
+      <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti explicabo aliquid voluptatibus. Illo voluptatibus commodi distinctio unde mollitia ipsum libero voluptatem nostrum. Iusto quisquam iste nostrum, omnis voluptatum pariatur doloribus.</p>
       </div>
       <div className="container text-center">
       <div className="row row-cols-1 row-cols-lg-3 row-cols-md-2 row-cols-sm-1 g-2 g-lg-3">
@@ -189,8 +197,7 @@ const Index = () => {
           <div className="container text-center p-5">
             <h1>Call For Help</h1>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui a possimus tempore perferendis aut dolore maxime odit dolores minima, voluptas nulla sit quis sequi necessitatibus iure maiores nam ipsum quod.</p>
-            <button type="button" className="btn btn-dark btn-outline-warning rounded-pill btn-lg px-4">Click to Call</button>
-
+            <a className="btn btn-dark btn-outline-warning rounded-pill btn-lg px-4" href="tel: +91-9403876207" title="call us">Click to Call</a>
           </div>
           </div>
       

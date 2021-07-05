@@ -4,7 +4,7 @@ import {LinkContainer} from 'react-router-bootstrap';
 import "bootstrap/dist/css/bootstrap.css";
 import "../assets/css/header.css";
 
-import Logo from '../assets/images/logo/emind-cafe-logo.jpg';
+// import Logo from '../assets/images/logo/emind-cafe-logo.jpg';
 const Header = () => {
 const [isScroll, setIsScroll] = useState(false);
   const hanndleScroll = () => {
@@ -46,17 +46,14 @@ const [isScroll, setIsScroll] = useState(false);
                <LinkContainer to="/about">
                 <Nav.Link>About</Nav.Link>
                </LinkContainer>
-               <LinkContainer to="/education">
-               <Nav.Link>Education</Nav.Link>
+               <LinkContainer to="/workshop">
+               <Nav.Link>Workshop</Nav.Link>
                </LinkContainer>
-               <LinkContainer to="/education">
-               <Nav.Link>Experience</Nav.Link>
+               <LinkContainer to="/writetous">
+               <Nav.Link>Write us</Nav.Link>
                </LinkContainer>
                <LinkContainer to="/appointment">
                <Nav.Link>Appointment</Nav.Link>
-               </LinkContainer>
-               <LinkContainer to="/project">
-               <Nav.Link>Projects</Nav.Link>
                </LinkContainer>
                <LinkContainer to="/contact">
                <Nav.Link>Contact</Nav.Link>
